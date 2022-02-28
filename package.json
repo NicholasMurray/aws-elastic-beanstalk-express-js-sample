@@ -4,9 +4,7 @@
   "description": "Sample Node.js (Express) app for AWS Elastic Beanstalk",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
-    "server": "node index.js",
-    "client": "cd client && npm start"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
